@@ -40,6 +40,10 @@ PositionRepair::~PositionRepair() {
     //cout << "PositionRepair at " << letters[repair_partner->column] << (repair_partner->row + 1) << " destroyed" << endl;
 }
 
+/**
+ * Inspired by Pancake Sorting problem
+ *      https://en.wikipedia.org/wiki/Pancake_sorting
+ */
 void PositionRepair::pancake() {
     KnightPosition * tmp;
 

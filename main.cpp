@@ -144,7 +144,7 @@ void show_solution(KnightPosition * start_position, int delete_all, int closed_p
     }
 }
 
-int main(int argc, char** argv) {
+int main (int argc, char** argv) {
 
     KnightPosition * start_position;
     KnightPosition *** complete_collection;
