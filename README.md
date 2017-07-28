@@ -12,5 +12,5 @@ the tour is closed, otherwise it is open.*
 There are algorithms with greater chances of success
 (following H. C. von Warnsdorf's rule consequently),
 and for large boards (beginning with 20 x 20 squares),
-it would be successful in every case much faster
+it would be successful in every case and much faster
 to divide the complete board into smaller pieces.
