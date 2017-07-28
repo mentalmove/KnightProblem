@@ -26,5 +26,12 @@ All cells are instances of the same idea.
 where the emphasis is on the possible moves.)
 
 Finding a closed tour is implemented as repair algorithm,
-using an unclosed tour as base. It repeatedly seeks for
+using an unclosed tour as base. It repeatedly seeks for  
 *Find a solution that is at least not worse than the actual one*.
+
+Although using backtracking consequently would always lead to a valid solution
+(if one exists), the algorithm gives up if too many steps are used.  
+Therefore, depending on the input values, three possible results can appear:  
+    - No solution is found
+    - An open path is found, but finding a closed one fails.
+    - An open path is found and improved to be a closed one.
