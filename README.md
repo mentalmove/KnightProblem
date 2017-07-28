@@ -32,6 +32,6 @@ using an unclosed tour as base. It repeatedly seeks for
 Although using backtracking consequently would always lead to a valid solution
 (if one exists), the algorithm gives up if too many steps are used.  
 Therefore, depending on the input values, three possible results can appear:  
-    - No solution is found
-    - An open path is found, but finding a closed one fails.
+    - No solution is found  
+    - An open path is found, but finding a closed one fails.  
     - An open path is found and improved to be a closed one.
