@@ -14,3 +14,13 @@ There are algorithms with greater chances of success
 for large boards (beginning with 20 x 20 squares),
 it would be successful in every case and much faster
 to divide the complete board into smaller pieces.
+
+## Basic idea
+A possible strategy for solving problems like this starts with a board;
+the board's most important property is having cells.  
+In this approach, the emphasis is on the cells itselves;
+cells are connected following distinct rules;
+all cells together could be seen as a board, but this aspect is not important.
+All cells are instances of the same idea.  
+(Not to be confused with neural network solutions
+where the emphasis is on the possible moves.)
