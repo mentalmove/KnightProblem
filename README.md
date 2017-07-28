@@ -24,3 +24,7 @@ all cells together could be seen as a board, but this aspect is not important.
 All cells are instances of the same idea.  
 (Not to be confused with neural network solutions
 where the emphasis is on the possible moves.)
+
+Finding a closed tour is implemented as repair algorithm,
+using an unclosed tour as base. It repeatedly seeks for
+*Find a solution that is at least not worse than the actual one*.
